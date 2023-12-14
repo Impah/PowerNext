@@ -595,6 +595,18 @@ pre code {
   justify-content: space-around;
 }
 
+/* ROW DEL SERVICE.HTML */
+.row-service {
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-around;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -1024,6 +1036,11 @@ pre code {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
+  }
+  /* COL-MD-3 DE SERVICE.HTML */
+  .col-md-3-service {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
   }
   .col-md-4 {
     -ms-flex: 0 0 33.333333%;

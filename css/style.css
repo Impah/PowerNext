@@ -368,7 +368,17 @@ a:focus {
   margin-top: 10px;
 }
 
+/* DETAILBOX DEL SERVICE.HTML */
+.service_section .detail-box-service {
+  margin-top: 10px;
+}
+
 .service_section .detail-box h6 {
+  font-weight: bold;
+}
+
+/* DETAILBOX DEL SERVICE.HTML */
+.service_section .detail-box-service h6 {
   font-weight: bold;
 }
 
