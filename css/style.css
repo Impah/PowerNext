@@ -320,6 +320,11 @@ a:focus {
   position: relative;
 }
 
+/* PADDING PARTE DE ABAJO DE LA SECCION SERVICIOS */
+section.service_section.layout_padding-bottom  {
+  padding-bottom: 0px;
+}
+
 .service_section .custom_heading-container {
   margin-bottom: 15px;
 }
@@ -543,6 +548,16 @@ a:focus {
   background-color: #ffffff;
 }
 
+/* PADDING PARTE DE ARRIBA DE LA SECCION CONTACTO */
+section.contact_section.layout_padding {
+  padding-top: 0px;
+}
+
+/* PADDING PARTE DE ARRIBA DE LA SECCION CONTACTO EN LA PAGINA CONTACT.HTML */
+#paddingtop_contact-html {
+  padding-top: 75px;
+}
+
 .contact_section input,
 .contact_section select {
   width: 100%;
@@ -574,19 +589,40 @@ a:focus {
 }
 
 .contact_section button {
-  background-color: #ff4f5a;
+  background-color: rgba(33,97,174,255);
   padding: 12px 55px;
   outline: none;
   border: none;
-  border: 1px solid #ff4f5a;
+  border: 1px solid rgba(0,165,79,255);
   color: #fff;
   margin-top: 25px;
+  transition: transform 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
 }
 
+/* CSS MODIFICADO POR MI */
 .contact_section button:hover {
-  color: #ff4f5a;
-  background-color: transparent;
+  color: #fff;
+  background-color: rgba(0,165,79,255);
+  border-color: rgba(33,97,174,255);
+  transform: scale(1.1);
 }
+
+.info-nav ul li {
+  transition: transform 0.5s ease;
+}
+
+.info-nav ul li:hover {
+  transform: scale(1.05)
+}
+
+img#linkedin {
+  transition: transform 1s ease, box-shadow 1s ease; /* Establece una transición de 1 segundo con un efecto suave */
+}
+img#linkedin:hover {
+  box-shadow: 0px 0px 15px rgba(0,165,79,255);
+  transform: scale(1.2); /* Ajusta el valor según la cantidad que desees que se agrande */
+}
+/* FINAL DE CSS MODIFICADO POR MI */
 
 .client_section .client_container {
   display: -webkit-box;
