@@ -312,7 +312,9 @@ a:focus {
 }
 
 .about_section .img-box img {
-  width: 500px;
+  width: 600px;
+  border-style: solid;
+  box-shadow: 0px 0px 10px black;
 }
 
 .service_section {
@@ -368,6 +370,14 @@ section.service_section.layout_padding-bottom  {
   height: 200px;
 }
 
+.col-md-3 .img-box img {
+  box-shadow: 0px 0px 10px black;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgba(33,97,174,255);
+  max-width: 100%;
+}
+
 .service_section .detail-box {
   height: 118px;
   margin-top: 10px;
@@ -397,6 +407,20 @@ section.service_section.layout_padding-bottom  {
 
 .service_section .detail-box .btn-box hr {
   background-color: rgba(33,97,174,255);
+}
+
+.col-md-3-service .img-box img{
+  box-shadow: 0px 0px 10px black;
+  width: 250px;
+  height: auto;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgba(33,97,174,255);
+  margin-bottom: 10px;
+}
+
+.col-md-3-service .img-box #energia-imagen {
+  width: 350px;
 }
 
 /* .service_section::before {

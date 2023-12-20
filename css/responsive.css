@@ -28,6 +28,9 @@
         border-radius: 12px;
     }
 
+    #LogoSliderPowerNext {
+        width: 350px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -45,7 +48,7 @@
     }
 
     .service_section .box.b-1 .detail-box {
-        text-align: left;
+        text-align: center;
     }
 
     .service_section .box.b-4 .detail-box {
@@ -67,9 +70,18 @@
     }
 
     .info-logo h2 img{
-        width: 220px;
+        width: 225px;
         border-radius: 12px;
     }
+}
+
+@media (width: 768px) and (height: 1024px) {
+
+    .info-logo h2 img{
+        width: 165px;
+        border-radius: 12px;
+    }
+        
 }
 
 @media (max-width: 576px) {
