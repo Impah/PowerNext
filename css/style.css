@@ -583,7 +583,8 @@ section.contact_section.layout_padding {
 }
 
 .contact_section input,
-.contact_section select {
+.contact_section select,
+.contact_section textarea {
   width: 100%;
   border: 0;
   padding: 15px 12px;
@@ -593,22 +594,26 @@ section.contact_section.layout_padding {
 }
 
 .contact_section input::-webkit-input-placeholder,
-.contact_section select::-webkit-input-placeholder {
+.contact_section select::-webkit-input-placeholder,
+.contact_section textarea::-webkit-input-placeholder {
   color: #3a3a3a;
 }
 
 .contact_section input:-ms-input-placeholder,
-.contact_section select:-ms-input-placeholder {
+.contact_section select:-ms-input-placeholder,
+.contact_section textarea:-ms-input-placeholder {
   color: #3a3a3a;
 }
 
 .contact_section input::-ms-input-placeholder,
-.contact_section select::-ms-input-placeholder {
+.contact_section select::-ms-input-placeholder,
+.contact_section textarea::-ms-input-placeholder {
   color: #3a3a3a;
 }
 
 .contact_section input::placeholder,
-.contact_section select::placeholder {
+.contact_section select::placeholder,
+.contact_section textarea::placeholder {
   color: #3a3a3a;
 }
 
@@ -636,7 +641,7 @@ section.contact_section.layout_padding {
 }
 
 .info-nav ul li:hover {
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 
 img#linkedin {
@@ -645,6 +650,14 @@ img#linkedin {
 img#linkedin:hover {
   box-shadow: 0px 0px 15px rgba(0,165,79,255);
   transform: scale(1.2); /* Ajusta el valor según la cantidad que desees que se agrande */
+}
+
+.info-contact span {
+  transition: color 0.5s ease;
+}
+
+.info-contact span:hover {
+  color: rgba(0,165,79,255);
 }
 /* FINAL DE CSS MODIFICADO POR MI */
 
