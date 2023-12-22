@@ -317,6 +317,25 @@ a:focus {
   box-shadow: 0px 0px 10px black;
 }
 
+section.about_section.layout_padding {
+  position: relative;
+}
+
+section.about_section.layout_padding::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../images/LogoSliderHomePowerNext.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.03; /* Ajusta el valor para la opacidad */
+  z-index: -1; /* Asegura que el pseudo-elemento esté detrás de la imagen */
+}
+
 .service_section {
   text-align: center;
   position: relative;
@@ -575,6 +594,22 @@ section.service_section.layout_padding-bottom  {
 /* PADDING PARTE DE ARRIBA DE LA SECCION CONTACTO */
 section.contact_section.layout_padding {
   padding-top: 0px;
+  position: relative;
+}
+
+section.contact_section.layout_padding::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../images/LogoSliderHomePowerNext.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.03; /* Ajusta el valor para la opacidad */
+  z-index: -1; /* Asegura que el pseudo-elemento esté detrás de la imagen */
 }
 
 /* PADDING PARTE DE ARRIBA DE LA SECCION CONTACTO EN LA PAGINA CONTACT.HTML */
