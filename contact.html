@@ -79,29 +79,29 @@
     <div class="container layout_padding2-top">
       <div class="row">
         <div class="col-md-6 mx-auto">
-          <form action="">
+          <form action="https://formsubmit.co/fovinagi@mailgolem.com" method="POST">
             <div>
-              <input type="text" placeholder="NOMBRE">
+              <input type="text" name="Nombre" placeholder="NOMBRE" required>
             </div>
             <div>
-              <input type="email" placeholder="EMAIL">
+              <input type="email" name="Email" placeholder="EMAIL" required>
             </div>
             <div>
-              <input type="text" placeholder="NUMERO DE TELÉFONO">
+              <input type="text" name="Telefono" placeholder="NUMERO DE TELÉFONO">
             </div>
             <div>
-              <select name="" id="">
+              <select name="Servicio" id="">
                 <option value="" disabled selected>TIPO DE SERVICIOS</option>
-                <option value="">Servicio de instalación de sistemas de Energía continua y segura</option>
-                <option value="">Servicio para integración de DataCenter</option>
-                <option value="">Servicio para la Gestión de Calidad de Energía</option>
+                <option value="Instalacion Energía continua y segura">Servicio de instalación de sistemas de Energía continua y segura</option>
+                <option value="Integracion de DataCenter">Servicio para integración de DataCenter</option>
+                <option value="Gestión de Calidad">Servicio para la Gestión de Calidad de Energía</option>
               </select>
             </div>
             <div>
-              <textarea class="message-box" placeholder="MENSAJE"></textarea>
+              <textarea class="message-box" name="Mensaje" placeholder="MENSAJE"></textarea>
             </div>
             <div class="d-flex justify-content-center ">
-              <button>
+              <button type="submit">
                 ENVIAR
               </button>
             </div>
