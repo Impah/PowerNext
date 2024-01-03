@@ -595,6 +595,30 @@ pre code {
   justify-content: space-around;
 }
 
+.row-slider {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-around;
+}
+
+/* SLIDER NUEVO */
+
+.pagination {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+/* FIN DE SLIDER NUEVO */
+
 /* ROW DEL SERVICE.HTML */
 .row-service {
   display: -ms-flexbox;

@@ -294,13 +294,6 @@ a:focus {
   transition: opacity 1s ease, transform 0.8s; 
 }
 
-#LogoSliderPowerNext {
-  width: 500px;
-}
-
-
-
-
 /* end slider section */
 .bg {
   background-image: url(../images/bg.jpg);
