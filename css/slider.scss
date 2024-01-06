@@ -142,9 +142,11 @@
             color: #fff;
             text-align: center;
             display: flex;
-            justify-content: center;
+            flex-direction: row-reverse;
+            justify-content: flex-start;
             align-items: center;
         }
+
 
         .title {
             margin: 0 auto 15px;

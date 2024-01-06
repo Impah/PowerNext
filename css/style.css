@@ -176,10 +176,8 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 200px;
+  width: 240px;
   margin-right: 5px;
-  border-radius: 20px;
-  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.2)
 }
 
 .navbar-brand span {
@@ -421,14 +419,38 @@ section.service_section.layout_padding-bottom  {
   background-color: rgba(33,97,174,255);
 }
 
+/* .box.b-1, .box.b-2, .box.b-3 {
+  display: flex;
+  align-items: center;
+} */
+
+.col-md-3-service .img-box h6 {
+  font-size: 1.5rem;
+  color: rgba(0,165,79,255);
+}
 .col-md-3-service .img-box img{
   box-shadow: 0px 0px 10px black;
-  width: 250px;
+  width: 300px;
   height: auto;
   border-style: solid;
   border-radius: 10px;
   border-color: rgba(33,97,174,255);
-  margin-bottom: 10px;
+  margin: 20px;
+}
+
+.col-md-3-service .img-box .first-box, .second-box, .third-box {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width:768px) {
+  .col-md-3-service .img-box .first-box, .second-box, .third-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
 }
 
 .col-md-3-service .img-box #energia-imagen {
