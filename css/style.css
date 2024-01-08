@@ -74,6 +74,11 @@ body {
   color: #1d1d1d;
   margin-right: 15px;
   font-size: 18px;
+  transition: transform 0.5s ease;
+}
+
+.btn-box a:hover {
+  transform: scale(1.2)
 }
 
 .btn-box hr {
@@ -438,13 +443,13 @@ section.service_section.layout_padding-bottom  {
   margin: 20px;
 }
 
-.col-md-3-service .img-box .first-box, .second-box, .third-box {
+.col-md-3-service .img-box .first-box, .second-box, .third-box, .four-box {
   display: flex;
   align-items: center;
 }
 
 @media (max-width:768px) {
-  .col-md-3-service .img-box .first-box, .second-box, .third-box {
+  .col-md-3-service .img-box .first-box, .second-box, .third-box, .four-box {
     display: flex;
     align-items: center;
     justify-content: center;
