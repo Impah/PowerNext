@@ -79,11 +79,10 @@
     <div class="container layout_padding2-top">
       <div class="row">
         <div class="col-md-6 mx-auto">
-          <form action="https://api.web3forms.com/submit" method="POST">
+          <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="95cc81d7-e2c5-4adb-9c02-54c3294a8aae">
             <input type="hidden" name="subject" value="Nuevo Email de PowerNext">
             <input type="hidden" name="from_name" value="PowerNext">
-            <input type="hidden" name="redirect" value="https://impah.github.io/PowerNext/success.html">
             <div>
               <input type="text" name="Nombre" placeholder="NOMBRE" required>
             </div>
@@ -105,7 +104,9 @@
             <div>
               <textarea class="message-box" name="Mensaje" placeholder="MENSAJE" required></textarea>
             </div>
-            <div id="captcha" class="h-captcha" data-captcha="true"></div>
+
+            <div class="h-captcha" data-captcha="true"></div>
+
             <div class="d-flex justify-content-center ">
               <button type="submit">
                 ENVIAR
@@ -229,6 +230,7 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script src="https://web3forms.com/client/script.js" async defer></script>
+  <script src="js/contact.js"></script>
 </body>
 
 </html>

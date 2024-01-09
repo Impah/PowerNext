@@ -637,14 +637,6 @@ section.contact_section.layout_padding::before {
   padding-top: 75px;
 }
 
-#captcha {
-  text-align: center;
-}
-
-.h-captcha {
-  text-align: center;
-}
-
 .contact_section input,
 .contact_section select,
 .contact_section textarea {
@@ -881,6 +873,14 @@ img#linkedin:hover {
   width: 300px;
   border-style:none;
   box-shadow: none;
+}
+
+#captcha {
+  text-align: center;
+}
+
+.h-captcha {
+  text-align: center;
 }
 
 /* FIN DE SUCCESS SECTION */
