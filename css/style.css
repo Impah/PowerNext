@@ -637,6 +637,10 @@ section.contact_section.layout_padding::before {
   padding-top: 75px;
 }
 
+.h-captcha {
+  text-align: center;
+}
+
 .contact_section input,
 .contact_section select,
 .contact_section textarea {
@@ -866,4 +870,14 @@ img#linkedin:hover {
 
 
 /* end footer section*/
+
+/* SUCCESS SECTION */
+
+.layout_padding2 #img-success {
+  width: 300px;
+  border-style:none;
+  box-shadow: none;
+}
+
+/* FIN DE SUCCESS SECTION */
 /*# sourceMappingURL=style.css.map */

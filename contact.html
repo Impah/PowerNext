@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>PowerNext</title>
+  <title>Contacto - PowerNext</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -79,7 +79,11 @@
     <div class="container layout_padding2-top">
       <div class="row">
         <div class="col-md-6 mx-auto">
-          <form action="https://formsubmit.co/fovinagi@mailgolem.com" method="POST">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="95cc81d7-e2c5-4adb-9c02-54c3294a8aae">
+            <input type="hidden" name="subject" value="Nuevo Email de PowerNext">
+            <input type="hidden" name="from_name" value="PowerNext">
+            <input type="hidden" name="redirect" value="https://impah.github.io/PowerNext/success.html">
             <div>
               <input type="text" name="Nombre" placeholder="NOMBRE" required>
             </div>
@@ -90,22 +94,23 @@
               <input type="text" name="Telefono" placeholder="NUMERO DE TELÉFONO">
             </div>
             <div>
-              <select name="Servicio" id="">
+              <select name="Servicio" id="" required>
                 <option value="" disabled selected>TIPO DE SERVICIOS</option>
-                <option value="Instalacion Energía continua y segura">Servicio de instalación de sistemas de Energía continua y segura</option>
+                <option value="Instalacion de sistemas de energía continua y segura">Servicio de instalación de sistemas de Energía
+                  continua y segura</option>
                 <option value="Integracion de DataCenter">Servicio para integración de DataCenter</option>
-                <option value="Gestión de Calidad">Servicio para la Gestión de Calidad de Energía</option>
+                <option value="Gestión de Calidad de Energía">Servicio para la Gestión de Calidad de Energía</option>
               </select>
             </div>
             <div>
-              <textarea class="message-box" name="Mensaje" placeholder="MENSAJE"></textarea>
+              <textarea class="message-box" name="Mensaje" placeholder="MENSAJE" required></textarea>
             </div>
+            <div class="h-captcha" data-captcha="true"></div>
             <div class="d-flex justify-content-center ">
               <button type="submit">
                 ENVIAR
               </button>
             </div>
-            <input type="hidden" name="_template" value="table">
           </form>
         </div>
       </div>
@@ -127,7 +132,7 @@
               </a>
             </h2>
             <p>
-              En PowerNext somos un aliado de confianza en el campo de la energía.
+              Tu aliado de confianza en el campo de la energía.
             </p>
           </div>
         </div>
@@ -222,6 +227,7 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 
 </html>
