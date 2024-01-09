@@ -637,6 +637,10 @@ section.contact_section.layout_padding::before {
   padding-top: 75px;
 }
 
+#captcha {
+  text-align: center;
+}
+
 .h-captcha {
   text-align: center;
 }
