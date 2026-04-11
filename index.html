@@ -192,6 +192,38 @@
 
   </div>
 
+  <div class="promo-modal" id="promo-modal" aria-hidden="true">
+    <div class="promo-modal__backdrop" data-close-modal></div>
+    <div class="promo-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="promo-modal-title">
+      <button class="promo-modal__close" type="button" aria-label="Cerrar novedades" data-close-modal>&times;</button>
+      <div class="promo-modal__header">
+        <span class="promo-modal__eyebrow">Novedades PowerNext</span>
+        <h2 id="promo-modal-title">Ahora sumamos paneles solares y cargadores para autos eléctricos</h2>
+        <p>
+          Incorporamos nuevas líneas de producto y servicio para acompañar instalaciones residenciales, comerciales e industriales.
+        </p>
+      </div>
+      <div class="promo-modal__grid">
+        <article class="promo-modal__card">
+          <img src="images/popup-paneles-solares.jpeg" alt="Paneles solares PowerNext">
+          <div class="promo-modal__content">
+            <h3>Paneles solares</h3>
+            <p>Kits solares Canadian Solar, instalación profesional y asesoría para mejorar la eficiencia energética.</p>
+            <a href="service.html#servicio-renovable">Ver más</a>
+          </div>
+        </article>
+        <article class="promo-modal__card">
+          <img src="images/popup-cargadores-electricos.jpeg" alt="Cargadores eléctricos PowerNext">
+          <div class="promo-modal__content">
+            <h3>Cargadores eléctricos</h3>
+            <p>Soluciones de carga para hogares, empresas, hoteles y locales con instalación llave en mano.</p>
+            <a href="service.html#servicio-carga-electrica">Ver más</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+
   <div class="bg">
 
     <!-- about section -->
@@ -249,24 +281,20 @@
           Confíe en nuestro servicio técnico certificado para mantener tu infraestructura energética en funcionamiento
           optimo.
         </p>
-        <div class="service_container ">
-          <div class="row">
-            <div class="col-md-3">
+        <div class="service_container">
+          <div class="row service-card-grid">
+            <div class="col-lg-4 col-md-6 service-card">
               <div class="box b-1">
                 <div class="img-box">
-                  <img src="images/Galaxy V serie.jpeg" alt="">
+                  <img src="images/Galaxy V serie.jpeg" alt="" class="service-card-image-bottom">
                 </div>
                 <div class="detail-box">
                   <h6>
                     Servicio de instalación de sistemas de Energía
                     continua y segura
-
                   </h6>
-                  <!-- <p>
-                    adipiscing elit, sed do eiusmod tempor incididunt
-                  </p> -->
                   <div class="btn-box">
-                    <a href="service.html">
+                     <a href="service.html#servicio-ups">
                       Leer más
                     </a>
                     <hr>
@@ -274,7 +302,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-4 col-md-6 service-card">
               <div class="box b-2">
                 <div class="img-box">
                   <img src="images/Netbotz 3.jpg" alt="">
@@ -282,13 +310,9 @@
                 <div class="detail-box">
                   <h6>
                     Servicio para integración de DataCenter
-
                   </h6>
-                  <!-- <p>
-                    adipiscing elit, sed do eiusmod tempor incididunt
-                  </p> -->
                   <div class="btn-box">
-                    <a href="service.html">
+                     <a href="service.html#servicio-datacenter">
                       Leer más
                     </a>
                     <hr>
@@ -296,7 +320,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-4 col-md-6 service-card">
               <div class="box b-3">
                 <div class="img-box">
                   <img src="images/gestion-calidad.jpg" alt="" id="energia-imagen">
@@ -305,11 +329,8 @@
                   <h6>
                     Servicio para la Gestión de Calidad de Energía
                   </h6>
-                  <!-- <p>
-                    adipiscing elit, sed do eiusmod tempor incididunt
-                  </p> -->
                   <div class="btn-box">
-                    <a href="service.html">
+                     <a href="service.html#servicio-calidad-energia">
                       Leer más
                     </a>
                     <hr>
@@ -317,27 +338,42 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="col-md-3">
+            <div class="col-lg-4 col-md-6 service-card">
               <div class="box b-4">
                 <div class="img-box">
-                  <img src="images/s-4.jpg" alt="">
+                  <img src="images/canadian-solar.png" alt="Servicios de energía renovable">
                 </div>
                 <div class="detail-box">
                   <h6>
-                    Hand Washing
+                    Servicios de energía renovable
                   </h6>
-                  <p>
-                    adipiscing elit, sed do eiusmod tempor incididunt
-                  </p>
                   <div class="btn-box">
-                    <a href="">
+                     <a href="service.html#servicio-renovable">
                       Leer más
                     </a>
                     <hr>
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
+            <div class="col-lg-4 col-md-6 service-card">
+              <div class="box b-5">
+                <div class="img-box">
+                  <img src="images/cargadores-electricos-mejor.jpeg" alt="Servicios de carga para vehículo" class="service-card-image-top">
+                </div>
+                <div class="detail-box">
+                  <h6>
+                    Servicios de carga para vehículo
+                  </h6>
+                  <div class="btn-box">
+                     <a href="service.html#servicio-carga-electrica">
+                      Leer más
+                    </a>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -438,6 +474,10 @@
                     continua y segura</option>
                   <option value="Integracion de DataCenter">Servicio para integración de DataCenter</option>
                   <option value="Gestión de Calidad de Energía">Servicio para la Gestión de Calidad de Energía</option>
+                  <option value="Kits Solares Canadian Solar">Línea de producto: Kits Solares Canadian Solar</option>
+                  <option value="Cargadores eléctricos para autos">Línea de producto: Cargadores eléctricos para autos</option>
+                  <option value="Instalación de paneles solares">Línea de servicio: Instalación de paneles solares</option>
+                  <option value="Infraestructura de carga para vehículos eléctricos">Línea de servicio: Infraestructura de carga para vehículos eléctricos</option>
                   <option value="Otro">Otro</option>
                 </select>
               </div>
@@ -605,6 +645,7 @@
     <script src="js/code-slider.js"></script>
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="js/contact.js"></script>
+    <script src="js/promo-modal.js"></script>
 
 </body>
 

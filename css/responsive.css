@@ -5,6 +5,18 @@
         display: none;
     }
 
+    .service_section .detail-box {
+        height: auto;
+    }
+
+    .promo-modal__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .promo-modal__card img {
+        height: 440px;
+    }
+
     .service_section::before {
         bottom: 45px;
     }
@@ -52,6 +64,16 @@
     .slider_section .detail-box {
         text-align: center;
         margin-top: 25px;
+    }
+
+    .promo-modal__dialog {
+        padding: 16px 12px;
+        border-radius: 22px;
+    }
+
+    .promo-modal__header h2 {
+        font-size: 1.7rem;
+        padding-right: 28px;
     }
 
     .info_section .col-md-3 {
@@ -111,6 +133,14 @@
 }
 
 @media (max-width: 576px) {
+
+    .promo-modal {
+        padding: 12px;
+    }
+
+    .promo-modal__card img {
+        height: 330px;
+    }
 
     .slider_section .detail-box h1 {
         font-size: 3.5rem;
